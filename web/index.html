@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Made</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #getExtensionButton {
+            flex-basis: 10vw;
+            height: 10vh;
+            background-color: chocolate;
+            color: aliceblue;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            line-height: 10vh;
+            margin: 2px;
+        }
+        #getExtensionButton:hover {
+            margin: 0;
+            border-color: aqua;
+            border-style: solid;
+            cursor: pointer;
+            border-width: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Made</h1>
+        <p>Eine Erweiterung für Moodle, die verhindert das unnötig Dateien heruntergeladen werden.</p>
+    </div>
+    <a id="getExtensionButton" href="/made-1.2.xpi">Holen</a>
+</body>
+</html>

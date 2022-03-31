@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "made@hems2.de": {
+      "updates": [
+        {
+          "version": "1.2",
+          "update_link": "https://made.hems2.de/made-1.2.xpi"
+        }
+      ]
+    }
+  }
+}

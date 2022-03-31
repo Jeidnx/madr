@@ -1,0 +1,27 @@
+{
+  "name": "made",
+  "description": "Diese Erweiterung verhindert das Dokumente die im Browser geöffnet werden können, von Moodle automatisch heruntergeladen werden. Funktioniert aktuell nur mit Deutschen Moodle versionen",
+  "version": "1.2",
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "made@hems2.de",
+      "update_url": "https://made.hems2.de/versions.json"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/mod/assign/view.php*"],
+      "js": ["moodlea.js"]
+    },
+    {
+      "matches": ["*://*/mod/folder/view.php*"],
+      "js": ["moodlef.js"]
+    },
+    {
+      "matches": ["*://*/course/view.php*"],
+      "js": ["moodlec.js"]
+    }
+  ]
+}
