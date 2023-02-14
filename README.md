@@ -1,8 +1,8 @@
-# Made
+# Moodle-Auto-Download-Remover
 
-Browser Addon um ungewollte Downloads zu verhindern.
+Opens files in the browser instead of downloading them from moodle
 
 ## Download
 
-Firefox: [Hier](https://made.hems2.de)
-Chrome: Benutzt einfach Firefox als Browser
+ - Firefox: [here](https://made.hems2.de)
+ - Chrome: just use Firefox
