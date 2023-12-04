@@ -16,5 +16,10 @@
       ],
       "run_at": "document_end"
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "update_url": "https://spacegli.de/madr/updates.json"
+    }
+  }
 }
