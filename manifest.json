@@ -1,0 +1,20 @@
+{
+  "name": "madr",
+  "description": "Extension for moodle that opens files directly in a new browser tab instead of downloading them",
+  "version": "1.4",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/mod/assign/view.php*",
+        "*://*/mod/folder/view.php*",
+        "*://*/course/view.php*",
+        "*://*/mod/forum/discuss.php*"
+      ],
+      "js": [
+        "madr.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
