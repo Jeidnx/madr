@@ -1,8 +1,8 @@
 {
   "name": "madr",
-  "description": "Extension for moodle that opens files directly in a new browser tab instead of downloading them",
-  "version": "1.4",
-  "manifest_version": 2,
+  "description": "Open moodle files in a new browser tab instead of downloading them",
+  "version": "1.5",
+  "manifest_version": 3,
   "content_scripts": [
     {
       "matches": [
@@ -19,6 +19,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
+      "id": "{2521ea21-5193-4532-ba71-337755a92a39}",
       "update_url": "https://spacegli.de/madr/updates.json"
     }
   }
